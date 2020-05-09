@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Impuestos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-icon  item-start></ion-icon>
+        <ion-label stacked>Numero de ventas:</ion-label>
+        <ion-input  type="number" placeholder="Numero Ventas"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon item-start></ion-icon>
+        <ion-label stacked>Monto en Ventas</ion-label>
+        <ion-input  type="number" placeholder="monto"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon item-start></ion-icon>
+        <ion-label stacked>número de compras:</ion-label>
+        <ion-input  type="text" placeholder="compras"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon item-start></ion-icon>
+        <ion-label stacked>monto en compras:</ion-label>
+        <ion-input  type="text" placeholder="monto compras"></ion-input>
+      </ion-item>
+      <ion-row>
+        <ion-item>
+        <ion-icon item-start></ion-icon>
+        <ion-label stacked>Impuesto 13% ventas:</ion-label>
+        <ion-input  type="text" placeholder="Rubro"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon item-start></ion-icon>
+        <ion-label stacked>Impuesto -13% compras:</ion-label>
+        <ion-input  type="text" placeholder="Rubro"></ion-input>
+      </ion-item>
+      </ion-row>
+      
+    </ion-list>
+    <div style="text-align: center;">
+      <ion-button ion-button type="submit" [disabled]="">Guardar</ion-button>
+    </div>
+  </form>
+  
+</ion-content>

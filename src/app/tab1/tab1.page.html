@@ -1,0 +1,40 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Formulario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="person" item-start></ion-icon>
+        <ion-label stacked>Nombres:</ion-label>
+        <ion-input  type="text" placeholder="Nombre"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="person" item-start></ion-icon>
+        <ion-label stacked>NIT:</ion-label>
+        <ion-input  type="number" placeholder="Nit"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="map" item-start></ion-icon>
+        <ion-label stacked>Direccion:</ion-label>
+        <ion-input  type="text" placeholder="Direccion"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="globe" item-start></ion-icon>
+        <ion-label stacked>Ciudad:</ion-label>
+        <ion-input  type="text" placeholder="Ciudad"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="mail" item-start></ion-icon>
+        <ion-label stacked>Rubro:</ion-label>
+        <ion-input  type="text" placeholder="Rubro"></ion-input>
+      </ion-item>
+    </ion-list>
+    <div style="text-align: center;">
+      <ion-button ion-button type="submit" [disabled]="">Guardar</ion-button>
+    </div>
+  </form>
+</ion-content>

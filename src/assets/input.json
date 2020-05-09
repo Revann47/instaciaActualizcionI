@@ -1,0 +1,13 @@
+[{"mes":"Enero","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Febrero","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Marzo","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Abril","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Mayo","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Junio","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Julio","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Agosto","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Septiembre","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Octubre","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Noviembre","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"},
+    {"mes":"Diciembre","totalVenta":"50000","totalCompra":2500,"totalImpuesto":"100"}
+]
